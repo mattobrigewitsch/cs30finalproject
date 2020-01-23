@@ -25,5 +25,5 @@ of use, you can create your own game using the framework I created in a much sho
 Pokemon, for example, takes a single sprite, string, and 12 intergers. You don't even need to write a single new line of code. A move is
 one string, an enum selection, and 3 intergers. Once again no code. 
 
-I ended up continuing the project, and completed the battle system 100%. If you'd like the code for that, you can contact me.
+I ended up continuing the project, and completed the battle system 100%. If you'd like the code for that, you can contact me @ matt.obrigewitsch@sasktel.net.
 It is very easy to input in other values, and would only take ~15 hours to make a game out of.
