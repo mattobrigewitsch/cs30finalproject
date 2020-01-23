@@ -10,7 +10,9 @@ these codes have comments, the rest are only for reference. I didn't comment the
 
 the code is not runnable from GitHub, I have and executable im sharing on Drive. 
 make sure the executable is named the same as the files or it will throw an error, and Drive likes renaming it for some reason,
-something to do with have 2 equally named files.
+something to do with have 2 equally named files. The game can be quit by clicking escape on the overworld
+(I believe I removed this in the test verion I uploaded due to conflictions with the BattleManager KeyCode(Escape), and I was testing it,
+if it isn't work just alt-tab out, sorry about that)
 
 The files follow a naming convention where the capitalization changes based on how the value is used. An example is that all classes are
 named in a them of ExampleClass, where the first letter of every word is capitilized. Additionally, a list of ExampleClass would be named
