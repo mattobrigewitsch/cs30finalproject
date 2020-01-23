@@ -1,0 +1,16 @@
+December 29 - Finished recreating the project from last year in a new test environment
+January 2 - Realised a problem with nested classes
+January 3 - Got rid of all nested classes in BasePokemon, replaced it all with intergers in BasePokemon
+January 4 - Big day. Introduced a new stat gain function into BasePokemon, removed ID system, and began changing GameManager
+January 7 - Finished up some tweaks to GameManager where Stat Gains would effect Base Stats, irreperably changing the prefab pokemon. 
+this resulted in exponentially stronger pokemon, and your own pokemon being effected by the stat gains of the oppenents. This was done
+by creating a momentary clone class of the prefab, changing it, and appending it to a list if it was one of the players, deleting the old
+instance from the same list.
+January 9 - Began changing enemys to be affected by stat gain
+January 10 - Continue work from 9, finishing it. This can be seen as the chunks of code in GameManager's EnterBattle function
+January 11 - Worked on moves in fighting, big day. Created a new way of indexing moves based on a move code, and storing moves as
+learnedMoves solely as ints. This was done because the same error was thrown as before with the nested classes not being properly cloned.
+I also began appending battle manager to create a test fight system update, with damage. Created damage formula, derived from
+https://www.serebii.net/games/damage.shtml. 
+January 12 - Finished the new fighting system to properly calulate damage, aswell as index moves for both player and enemy. Removed enemy
+moves from test copy as they haven't been properly tested, and I don't want to be embarrassed by an error in presentation.
