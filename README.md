@@ -19,5 +19,11 @@ named in a them of ExampleClass, where the first letter of every word is capitil
 exampleList. I will not label every example of this, but I realise this isn't standard, but it helped me keep track of my values, 
 especially when there was likely over 100 values towards the end of the project.
 
+The game itself was targeted at younger audiences, as it was simply a nostalgia piece from my youth that I thought I could recreate, but 
+the project was aimed more along the lines of people aiming to make their own game without much coding knowledge. Thanks to the ease
+of use, you can create your own game using the framework I created in a much shorter time then I have spent coding. Creating a unique 
+Pokemon, for example, takes a single sprite, string, and 12 intergers. You don't even need to write a single new line of code. A move is
+one string, an enum selection, and 3 intergers. Once again no code. 
+
 I ended up continuing the project, and completed the battle system 100%. If you'd like the code for that, you can contact me.
 It is very easy to input in other values, and would only take ~15 hours to make a game out of.
